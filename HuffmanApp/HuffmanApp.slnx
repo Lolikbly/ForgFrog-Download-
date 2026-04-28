@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HuffmanApp/HuffmanApp.vcxproj">
+    <Platform Project="Win32" />
+  </Project>
+  <Project Path="SetupForkFrog/SetupForkFrog.vdproj" Type="Installer">
+    <Build />
+  </Project>
+</Solution>
