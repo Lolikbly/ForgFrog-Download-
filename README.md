@@ -1,35 +1,34 @@
 # 🐸 ForkFrog - Huffman Secure Compressor & Image Encryptor
 
-A comprehensive C++ security tool that provides data compression, message encryption, and secure image processing.
+**Version: 1.0.3**
 
-## Key Features
+## Features
 
-- **User Authentication** - Robust Login and Registration system
-- **Dual Processing** - Text compression (Huffman) + Image encryption
-- **Strong Security** - AES-256 encryption + SHA-256 password hashing
-- **Multi-language** - Russian and English interface
-- **File Format** - Encrypted data saved as `.forkfrog` files
+- User Authentication (Login/Register)
+- Text compression using Huffman algorithm
+- AES-256 encryption with password
+- Image encryption (JPG, PNG, BMP)
+- Multi-language (Russian / English)
 
-## Modules
+## Installation
 
-- **Compression Engine** - High-performance Huffman coding
-- **Encryption Suite** - AES-based encryption for text and images
-- **Identity Manager** - Secure user credential storage
-- **Image Processor** - Encrypt/Decrypt JPEG, PNG, BMP files
+1. Go to **Releases** page
+2. Download **Release.rar**
+3. Extract the RAR archive
+4. Run **setup.exe**
+5. Follow installation wizard
+6. Launch from Start Menu or Desktop shortcut
 
-## Tech Stack
+## Usage
 
-- **Language**: C++ / C++/CLI
-- **Algorithms**: AES-256, SHA-256, Huffman Coding
-- **GUI**: Windows Forms
-- **IDE**: Visual Studio 2022
-
-## Getting Started
-
-1. Clone the repository
-2. Open `HuffmanApp.slnx` in Visual Studio 2022
-3. Press `F5` to build and run
+1. Register an account
+2. Login
+3. Enter text → click Encrypt
+4. Or use Strong Encryption (AES) with password
+5. Click Image Encryption button to encrypt images
 
 ## Author
 
-Developed by [KirillCO](https://github.com/Lolikbli)
+KirillCO
+
+GitHub: [Lolikbli](https://github.com/Lolikbli)
