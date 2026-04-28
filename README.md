@@ -29,6 +29,5 @@
 
 ## Author
 
-KirillCO
 
 GitHub: [Lolikbli](https://github.com/Lolikbli)
