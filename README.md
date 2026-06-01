@@ -27,7 +27,4 @@
 4. Or use Strong Encryption (AES) with password
 5. Click Image Encryption button to encrypt images
 
-## Author
-
-
 GitHub: [Lolikbli](https://github.com/Lolikbli)
