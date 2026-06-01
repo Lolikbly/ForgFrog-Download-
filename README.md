@@ -37,7 +37,7 @@
 
 ## Tech Stack
 
-- C++ / C++/CLI
+- C++/CLI
 - Windows Forms
 - AES-256, SHA-256, Huffman Coding
 
