@@ -1,14 +1,22 @@
 # 🐸 ForkFrog - Huffman Secure Compressor & Image Encryptor
 
-**Version: 1.0.3**
+**Current Version: 1.0.4**
+
+## What's New in v1.0.4
+
+- 🔤 Fixed Russian case sensitivity — uppercase and lowercase letters now work correctly
+- 🗑️ Auto-remove old version — setup now automatically removes previous installation
+- ⚡ Performance improvements and bug fixes
+
+---
 
 ## Features
 
-- User Authentication (Login/Register)
-- Text compression using Huffman algorithm
-- AES-256 encryption with password
-- Image encryption (JPG, PNG, BMP)
-- Multi-language (Russian / English)
+- 🔐 User Authentication (Login/Register)
+- 📦 Text compression using Huffman algorithm
+- 🔒 AES-256 encryption with password
+- 🖼️ Image encryption (JPG, PNG, BMP)
+- 🌍 Multi-language (Russian / English)
 
 ## Installation
 
@@ -23,8 +31,28 @@
 
 1. Register an account
 2. Login
-3. Enter text → click Encrypt
-4. Or use Strong Encryption (AES) with password
-5. Click Image Encryption button to encrypt images
+3. Enter text → click **Encrypt**
+4. Or use **Strong Encryption** (AES) with password
+5. Click **Image Encryption** button to encrypt images
+
+## Tech Stack
+
+- C++ / C++/CLI
+- Windows Forms
+- AES-256, SHA-256, Huffman Coding
+
+## Changelog
+
+### v1.0.4
+- Fixed Russian case sensitivity
+- Setup now removes previous version automatically
+
+### v1.0.3
+- Added multi-language support
+- Fixed image decryption issues
+
+## Author
+
+**KirillCO**
 
 GitHub: [Lolikbli](https://github.com/Lolikbli)
