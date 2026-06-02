@@ -1,6 +1,12 @@
 # 🐸 ForkFrog - Huffman Secure Compressor & Image Encryptor
 
-**Current Version: 1.0.4**
+**Current Version: 1.0.5**
+
+## What's New in v1.0.5
+
+- 🖼️ Application icon added — new visual identity for the program
+- ❌ Improved deletion icon — clearer visual feedback for remove operations
+- 🐛 Minor UI fixes and optimizations
 
 ## What's New in v1.0.4
 
@@ -42,6 +48,10 @@
 - AES-256, SHA-256, Huffman Coding
 
 ## Changelog
+
+### v1.0.5
+- Added application icon
+- Added deletion icon
 
 ### v1.0.4
 - Fixed Russian case sensitivity
