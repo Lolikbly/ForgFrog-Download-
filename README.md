@@ -27,7 +27,7 @@
 ## Installation
 
 1. Go to **Releases** page
-2. Download **Release.rar**
+2. Download **Setup.rar**
 3. Extract the RAR archive
 4. Run **setup.exe**
 5. Follow installation wizard
