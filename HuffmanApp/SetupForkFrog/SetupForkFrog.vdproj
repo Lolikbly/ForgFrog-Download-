@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7011AF5856A44A0DA5645014067B44C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8CADF0CA8633B59614DC847ACB31F386"
         "OwnerKey" = "8:_9A0FCD1B574E415CA2C13A197B9A3B89"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,12 +34,6 @@
         "Entry"
         {
         "MsmKey" = "8:_9A0FCD1B574E415CA2C13A197B9A3B89"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C8DC47AF41104BD29B6861BD5271E2C9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -61,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -77,6 +93,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -126,6 +158,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7011AF5856A44A0DA5645014067B44C4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Pictures\\Frog.ico"
+            "TargetName" = "8:Frog.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_CF9CA100F2BE4689AE9A5634572BE8DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CADF0CA8633B59614DC847ACB31F386"
             {
             "SourcePath" = "8:api-ms-win-crt-runtime-l1-1-0.dll"
@@ -144,26 +196,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C8DC47AF41104BD29B6861BD5271E2C9"
-            {
-            "SourcePath" = "8:C:\\Users\\Admin\\Pictures\\Frog.ico"
-            "TargetName" = "8:Frog.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_CF9CA100F2BE4689AE9A5634572BE8DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -222,15 +254,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SetupForkFrog"
-        "ProductCode" = "8:{9C488417-8FBB-4812-9111-F9F23EE2420B}"
-        "PackageCode" = "8:{D2137D43-C4F3-4136-BC4D-E06C257D325E}"
+        "ProductCode" = "8:{FCE14DA0-BCA2-4431-AC80-6EEAD5562BD2}"
+        "PackageCode" = "8:{22FE0A28-C613-4307-AF56-D250CF7460EC}"
         "UpgradeCode" = "8:{56781B59-04D9-41D7-9BB8-939B2BB84B75}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.3"
+        "ProductVersion" = "8:1.0.5"
         "Manufacturer" = "8:KirillCO"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -240,7 +272,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_7011AF5856A44A0DA5645014067B44C4"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -354,7 +386,7 @@
             "Target" = "8:_9A0FCD1B574E415CA2C13A197B9A3B89"
             "Folder" = "8:_286CE0CAF0E641AF91ECD91B89540474"
             "WorkingFolder" = "8:_CF9CA100F2BE4689AE9A5634572BE8DD"
-            "Icon" = "8:_C8DC47AF41104BD29B6861BD5271E2C9"
+            "Icon" = "8:_7011AF5856A44A0DA5645014067B44C4"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F9A8A5F28F63463A82DF6A61D7CBF38D"
@@ -368,7 +400,7 @@
             "Target" = "8:_9A0FCD1B574E415CA2C13A197B9A3B89"
             "Folder" = "8:_2E1FFB0F05854D8E8622297E3D2A751C"
             "WorkingFolder" = "8:_CF9CA100F2BE4689AE9A5634572BE8DD"
-            "Icon" = "8:_C8DC47AF41104BD29B6861BD5271E2C9"
+            "Icon" = "8:_7011AF5856A44A0DA5645014067B44C4"
             "Feature" = "8:"
             }
         }

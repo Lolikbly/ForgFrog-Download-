@@ -49,6 +49,8 @@ namespace HuffmanApp {
             this->StartPosition = FormStartPosition::CenterParent;
             this->BackColor = Color::Green;
 
+            this->Icon = gcnew System::Drawing::Icon("Frog.ico");
+
             btnBack = gcnew Button();
             btnBack->Text = isEnglish ? L"← Back" : L"← Назад";
             btnBack->Location = System::Drawing::Point(10, 10);

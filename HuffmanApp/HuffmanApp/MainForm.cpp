@@ -117,6 +117,39 @@ namespace HuffmanApp {
         freq[L':'] = 25;
         freq[L'('] = 40;
         freq[L')'] = 40;
+        freq[L'А'] = 80;
+        freq[L'Б'] = 14;
+        freq[L'В'] = 45;
+        freq[L'Г'] = 16;
+        freq[L'Д'] = 30;
+        freq[L'Е'] = 84;
+        freq[L'Ё'] = 20;
+        freq[L'Ж'] = 9;
+        freq[L'З'] = 15;
+        freq[L'И'] = 73;
+        freq[L'Й'] = 10;
+        freq[L'К'] = 34;
+        freq[L'Л'] = 43;
+        freq[L'М'] = 32;
+        freq[L'Н'] = 67;
+        freq[L'О'] = 109;
+        freq[L'П'] = 28;
+        freq[L'Р'] = 47;
+        freq[L'С'] = 54;
+        freq[L'Т'] = 63;
+        freq[L'У'] = 26;
+        freq[L'Ф'] = 2;
+        freq[L'Х'] = 8;
+        freq[L'Ц'] = 4;
+        freq[L'Ч'] = 12;
+        freq[L'Ш'] = 6;
+        freq[L'Щ'] = 3;
+        freq[L'Ъ'] = 1;
+        freq[L'Ы'] = 18;
+        freq[L'Ь'] = 17;
+        freq[L'Э'] = 2;
+        freq[L'Ю'] = 5;
+        freq[L'Я'] = 20;
 
         for (wchar_t c = L'0'; c <= L'9'; c++) {
             freq[c] = 30;
@@ -311,6 +344,8 @@ namespace HuffmanApp {
         this->StartPosition = FormStartPosition::CenterScreen;
         this->BackColor = Color::Green;
         this->Icon = System::Drawing::SystemIcons::Application;
+
+        this->Icon = gcnew System::Drawing::Icon("Frog.ico");
 
         btnExit = gcnew Button();
         btnExit->Text = L"Выход";
