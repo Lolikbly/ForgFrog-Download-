@@ -1,5 +1,4 @@
-﻿// MainForm.h
-#pragma once
+﻿#pragma once
 
 #include "PassForm.h"
 
@@ -13,6 +12,7 @@ using namespace System::Security::Cryptography;
 
 namespace HuffmanApp {
 
+    //Алгоритм Хаффмана сравнения
     public ref class HuffmanNode {
     public:
         wchar_t Character;
@@ -39,6 +39,7 @@ namespace HuffmanApp {
         }
     };
 
+	//механизм Хаффмана для шифрования и дешифрования
     public ref class HuffmanCipher {
     private:
         Dictionary<wchar_t, String^>^ codes;

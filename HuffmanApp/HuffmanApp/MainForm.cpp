@@ -12,8 +12,6 @@ using namespace Microsoft::VisualBasic;
 
 namespace HuffmanApp {
 
-    // ========== РЕАЛИЗАЦИЯ HUFFMANCIPHER ==========
-
     HuffmanCipher::HuffmanCipher() {
         codes = gcnew Dictionary<wchar_t, String^>();
         root = nullptr;
